@@ -92,7 +92,9 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 fontStyle = FontStyle.Italic,
                 fontWeight = FontWeight.Bold
             )
-            Image(painter = painterResource(id = R.drawable.fotosaya)
+            Image(painter = painterResource(id = R.drawable.fotosaya),
+            contentDescription = null,
+                modifier = lintang.size(300.dp)
             )
     }
 }
