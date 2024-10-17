@@ -74,6 +74,7 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
             fontSize = 20.sp,
             color = Color.Blue,
             fontStyle = FontStyle.Italic,
+            fontWeight = FontWeight.Bold
         )
     }
 }
