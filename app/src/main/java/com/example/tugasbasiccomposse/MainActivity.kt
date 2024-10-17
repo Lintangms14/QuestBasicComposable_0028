@@ -15,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
@@ -39,7 +40,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TugasBasicComposse(lintang : Modifier = Modifier){
     Column (
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         ) {
@@ -49,7 +50,15 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 fontSize = 50.sp,
                 color = Color.Black,
                 fontWeight = FontWeight.Bold
-            )
+                )
+            Text(
+                text = "Ini adalah halaman login",
+                modifier = lintang,
+                fontSize = 25.sp,
+                color = Color.Black,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.Bold
+        )
     }
 }
 
