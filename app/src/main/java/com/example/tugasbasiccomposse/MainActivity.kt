@@ -68,14 +68,18 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                     contentDescription = null,
                     modifier =lintang.size(250.dp)
                 ))
-        Text(
-            text = "Nama",
-            modifier = lintang,
-            fontSize = 20.sp,
-            color = Color.Blue,
-            fontStyle = FontStyle.Italic,
-            fontWeight = FontWeight.Bold
-        )
+            Text(
+                text = "Nama",
+                modifier = lintang,
+                fontSize = 20.sp,
+                color = Color.Blue,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "Lintang Merayu Sukma",
+
+            )
     }
 }
 
