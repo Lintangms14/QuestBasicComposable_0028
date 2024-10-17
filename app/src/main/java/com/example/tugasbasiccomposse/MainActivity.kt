@@ -89,6 +89,10 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 modifier = lintang,
                 fontSize = 35.sp,
                 color = Color.Red,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.Bold
+            )
+            Image(painter = painterResource(id = R.drawable.fotosaya)
             )
     }
 }
