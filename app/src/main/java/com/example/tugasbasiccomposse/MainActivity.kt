@@ -78,6 +78,8 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
             )
             Text(
                 text = "Lintang Merayu Sukma",
+                modifier = lintang,
+                fontSize = 25.sp,
 
             )
     }
