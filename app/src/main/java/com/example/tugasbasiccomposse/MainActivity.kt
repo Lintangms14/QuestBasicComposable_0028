@@ -88,6 +88,7 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 text = "20220140028",
                 modifier = lintang,
                 fontSize = 35.sp,
+                color = Color.Red,
             )
     }
 }
