@@ -66,7 +66,7 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
         (
                 Image(painter = painterResource(id = R.drawable.umy),
                     contentDescription = null,
-
+                    modifier =lintang.size(250.dp)
                 ))
     }
 }
