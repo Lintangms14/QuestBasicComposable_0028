@@ -80,7 +80,9 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 text = "Lintang Merayu Sukma",
                 modifier = lintang,
                 fontSize = 25.sp,
-
+                color = Color.Yellow,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.Bold
             )
     }
 }
