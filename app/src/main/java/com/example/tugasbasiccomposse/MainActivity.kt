@@ -68,6 +68,9 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                     contentDescription = null,
                     modifier =lintang.size(250.dp)
                 ))
+        Text(
+            text = "Nama",
+        )
     }
 }
 
