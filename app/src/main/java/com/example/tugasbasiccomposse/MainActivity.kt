@@ -84,6 +84,10 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 fontStyle = FontStyle.Italic,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "20220140028",
+
+            )
     }
 }
 
