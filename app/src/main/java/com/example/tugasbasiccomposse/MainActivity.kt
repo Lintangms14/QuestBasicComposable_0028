@@ -14,7 +14,10 @@ import androidx.compose.material3.VerticalDivider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.example.tugasbasiccomposse.ui.theme.TugasBasicComposseTheme
 
 class MainActivity : ComponentActivity() {
@@ -39,8 +42,14 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
-        ){
-
+        ) {
+            Text(
+                text = "Login",
+                modifier = lintang,
+                fontSize = 50.sp,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold
+            )
     }
 }
 
