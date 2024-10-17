@@ -70,6 +70,8 @@ fun TugasBasicComposse(lintang : Modifier = Modifier){
                 ))
         Text(
             text = "Nama",
+            modifier = lintang,
+            fontSize = 20.sp,
         )
     }
 }
